@@ -80,6 +80,6 @@ if __name__ == '__main__':
             out = capture_raw(bayer=args.bayer, type=args.type, preview_time=args.preview, outpath=out_path)
             cv2.imwrite(out_image_path, cv2.cvtColor(out, cv2.COLOR_RGB2BGR))
             print("Finished capturing. Wrote " + out_path)
-            sleep(2)
+            sleep(0.05)
         else:
-            sleep(2)
+            sleep(0.05)
