@@ -18,3 +18,9 @@ chmod +x button_camera.py
 - "-b", "--bayer", action="store_true", default=False, help="Return Bayer array (Default: Return demosaiced array)"
 - "-t", "--type", type=str, default="uint8", help="Data type of the result. uint8 or uint16. If uint16, 10bit raw data will returned as np.uint16 array."
 - "-p", "--preview", type=int, default=0, help="Preview time in seconds. If 0, preview will not be activated."
+
+### Requirements
+- [picamera](https://picamera.readthedocs.io/en/release-1.13/)
+- [numpy](https://numpy.org/)
+- [opencv-python](https://pypi.org/project/opencv-python/)
+- GPU Memory must be 512MB or larger
