@@ -5,7 +5,7 @@ Getting raw images with Pi Camera v2, using a tact switch as a shutter button
 ![](hardware_example.jpg) 
 This scripts works only with [Pi Camera Module Version 2](https://www.raspberrypi.org/products/camera-module-v2/). A tact switch is used as a shutter bottun.
 ## Usage
-./bottun_camera -o $output directory$ -g $GPIO pin number connected to the tact switch$
+./bottun_camera.py -o $output_directory$ -g $GPIO_pin_number$
 
 ### Basic Arguments (required)
 - "-o", "--out", type=str, help="Output directory"
